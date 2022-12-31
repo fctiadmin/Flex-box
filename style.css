@@ -1,0 +1,57 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body{
+	background:#F1FBFF;
+}
+.profile-row{
+	display:flex;
+	justify-content:center;
+	gap:20px;
+	padding-right:20px;
+	padding-left:20px;
+	flex-direction:wrap;
+	position:relative;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,50%);
+}
+.profile-row .profile{
+	background:white;
+	padding:24px 20px;
+}
+.profile-row .profile .photo{
+	text-align:center;
+}
+.profile-row .profile .photo img{
+	clip-path: circle(50% at 50% 50%);
+}
+.profile-row .profile .photo h2{
+	font-size:1.75rem;
+	font-family: 'Montserrat', sans-serif;
+	color:#212529;
+	padding:10px 0px;
+}
+.profile-row .profile .des{
+	text-align:center;
+}
+.profile-row .profile .des p{
+	color:gray;
+	font-size:20px;
+	line-height:24px;
+}
+.profile-row .profile .social{
+	text-align:center;
+	padding:20px 0px;
+}
+.profile-row .profile .social a{
+	text-decoration:none;
+	
+}
+.profile-row .profile .social a i{
+	font-size:20px;
+	padding:0px 8px;
+	color:black;
+}
